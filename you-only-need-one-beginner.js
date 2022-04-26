@@ -6,10 +6,6 @@
 
 function check(a, x) {
     for (let i = 0; i <= a.length -1; i++) {
-        if (a.indexOf(x) >= 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return a.indexOf(x) >= 0;
     }
 }
